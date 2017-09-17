@@ -1,0 +1,9 @@
+from django.shortcuts import render
+
+def accueil(request):
+    print ("ok")
+    return render(request, 'front/accueil.html')
+
+def realisations(request):
+    return render(request, 'front/realisations.html')
+
